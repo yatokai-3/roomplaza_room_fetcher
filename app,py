@@ -1,1 +1,10 @@
+from flask import Flask, jsonify
+import automate_rp
+
+app = Flask(__name__)
+
+@app.route("/")
+def run():
+    result = automate_rp.run_once()
+    return jsonify(result
 
