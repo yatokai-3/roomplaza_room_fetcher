@@ -129,8 +129,8 @@ def run_once():
         res = run_city(city, path)
         results.append(res)
 
-    print(json.dumps(results, indent=2,ensure_ascii=False))
+    return results
 
 
-if __name__ == "__main__":
-    run_once()
+# if __name__ == "__main__":
+#     run_once()
