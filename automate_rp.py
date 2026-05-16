@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import json, os, resend
+import json, os
 
 BASE = "https://www.roomplaza.com"
 CITIES = {
