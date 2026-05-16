@@ -27,6 +27,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NOTIFY_EMAIL:   ${{ secrets.NOTIFY_EMAIL }}
+          CC_EMAILS: ${{ secrets.CC_EMAILS }}
         run: python automate_rp.py
 
       - name: Commit updated seen_ids
