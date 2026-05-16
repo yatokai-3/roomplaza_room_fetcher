@@ -5,7 +5,7 @@ import json, os
 BASE = "https://www.roomplaza.com"
 CITIES = {
     "hague":     "/en/html/web/search/home?city=4&startDate=2026-08-01&tenants=4",
-    "delft":     "/en/html/web/search/home?city=3&startDate=2026-08-01&tenants=4",
+    "delft":     "/en/html/web/search/home?city=3&startDate=2026-08-01&tenants=3",
     "rotterdam": "/en/html/web/search/home?city=1&startDate=2026-08-01&tenants=4",
 }
 DATA_DIR = "data"
