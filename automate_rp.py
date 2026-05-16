@@ -92,14 +92,17 @@ def build_html(all_new):
 
 def send_email(all_new):
     resend.api_key = os.environ["RESEND_API_KEY"]
+    cc = os.environ.get("CC_EMAILS", "").split(",")
     html = build_html(all_new)
     if not html:
         print("No new listings — skipping email.")
         return
     total = sum(len(v) for v in all_new.values())
+    
     resend.Emails.send({
         "from": "onboarding@resend.dev",          # free sender, no domain needed
         "to":   os.environ["NOTIFY_EMAIL"],
+        "cc":      [x for x in cc if x],   # filters out empty strings
         "subject": f"🏠 {total} new RoomPlaza listing(s)!",
         "html": html,
     })
