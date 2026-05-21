@@ -176,6 +176,15 @@ def run_city(city, path):
     seen_ids    = set(load_json(seen_file))
     new_ids     = current_ids - seen_ids
     new_list    = [x for x in current if x["id"] in new_ids]
+
+    # sort by price low to high
+    def parse_price(listing):
+        try:
+            return int(''.join(filter(str.isdigit, listing["price"] or "")))
+        except:
+            return 99999   # push unparseable prices to bottom
+    new_list.sort(key=parse_price)
+    
     save_json(seen_file,  list(seen_ids.union(current_ids)))
     save_json(final_file, current)
     return new_list
