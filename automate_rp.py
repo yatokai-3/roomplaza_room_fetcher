@@ -7,6 +7,9 @@ CITIES = {
     "hague":     "/en/html/web/search/home?city=4&startDate=2026-08-01&tenants=4",
     "delft":     "/en/html/web/search/home?city=3&startDate=2026-08-01&tenants=4",
     "rotterdam": "/en/html/web/search/home?city=1&startDate=2026-08-01&tenants=4",
+    "hague_3":      "/en/html/web/search/home?city=4&startDate=2026-08-01&tenants=3",
+    "delft_3":      "/en/html/web/search/home?city=3&startDate=2026-08-01&tenants=3",
+    "rotterdam_3":  "/en/html/web/search/home?city=1&startDate=2026-08-01&tenants=3"
 }
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -123,50 +126,6 @@ def send_email(all_new):
     print(f"Email sent to {all_recipients}")
 
 
-# def send_email(all_new):
-#     html = build_html(all_new)
-#     if not html:
-#         print("No new listings — skipping email.")
-#         return
-
-#     total = sum(len(v) for v in all_new.values())
-#     gmail_user     = os.environ["GMAIL_USER"]      # your gmail
-#     gmail_password = os.environ["GMAIL_APP_PASS"]  # app password (not your real password)
-#     notify_email   = os.environ["NOTIFY_EMAIL"]
-#     cc_emails      = [x for x in os.environ.get("CC_EMAILS", "").split(",") if x]
-
-#     msg = MIMEMultipart("alternative")
-#     msg["Subject"] = f"🏠 {total} new RoomPlaza listing(s)!"
-#     msg["From"]    = gmail_user
-#     msg["To"]      = notify_email
-#     if cc_emails:
-#         msg["Cc"]  = ", ".join(cc_emails)
-#     msg.attach(MIMEText(html, "html"))
-
-#     all_recipients = [notify_email] + cc_emails
-#     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-#         smtp.login(gmail_user, gmail_password)
-#         smtp.sendmail(gmail_user, all_recipients, msg.as_string())
-#     print(f"Email sent to {all_recipients}")
-
-# def send_email(all_new):
-#     resend.api_key = os.environ["RESEND_API_KEY"]
-#     cc = os.environ.get("CC_EMAILS", "").split(",")
-#     html = build_html(all_new)
-#     if not html:
-#         print("No new listings — skipping email.")
-#         return
-#     total = sum(len(v) for v in all_new.values())
-    
-#     resend.Emails.send({
-#         "from": "onboarding@resend.dev",          # free sender, no domain needed
-#         "to":   os.environ["NOTIFY_EMAIL"],
-#         "cc":      [x for x in cc if x],   # filters out empty strings
-#         "subject": f"🏠 {total} new RoomPlaza listing(s)!",
-#         "html": html,
-#     })
-#     print(f"Email sent — {total} new listings.")
-
 # ---------- per city ----------
 def run_city(city, path):
     seen_file  = os.path.join(DATA_DIR, f"{city}_seen_ids.json")
@@ -200,8 +159,3 @@ def run_once():
 if __name__ == "__main__":
     run_once()
 
-#     return results
-
-
-# # if __name__ == "__main__":
-# #     run_once()
