@@ -1,15 +1,22 @@
 [
   {
+    "id": "92",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/92?city=1&startDate=2026-08-01&tenants=4",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person student house with garden near city center (available from 10-08-2026) From €722",
+    "price": "From €722",
+    "availability": "5 of 5 flatshares available"
+  },
+  {
     "id": "110",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/110?city=1&startDate=2026-08-01&tenants=4",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person flatshare apartment in Kralingen, Krekelstraat (available from 10-08-2026) From €750",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person flatshare apartment in Kralingen, Krekelstraat (available from 10-08-2026) 1 other group in line awaiting approval From €750",
     "price": "From €750",
     "availability": "5 of 5 flatshares available"
   },
   {
     "id": "186",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/186?city=1&startDate=2026-08-01&tenants=4",
-    "title": "EUR 1ST YEAR MASTER - 4-person flatshare apartment located at the Randweg in Rotterdam (available from 10-08-2026) 1 other group in line awaiting approval From €655",
+    "title": "EUR 1ST YEAR MASTER - 4-person flatshare apartment located at the Randweg in Rotterdam (available from 10-08-2026) From €655",
     "price": "From €655",
     "availability": "4 of 4 flatshares available"
   },
@@ -19,6 +26,13 @@
     "title": "EUR 1ST YEAR BSC / MASTER - 4-person flatshare apartment located at the Eksterstraat (available from 10-08-2026) 1 other group in line awaiting approval From €665",
     "price": "From €665",
     "availability": "4 of 4 flatshares available"
+  },
+  {
+    "id": "282",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/282?city=1&startDate=2026-08-01&tenants=4",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - Beautiful furnished apartment at Claes de Vrieselaan (available from 10-08-2026) 1 other group in line awaiting approval From €655",
+    "price": "From €655",
+    "availability": "5 of 5 flatshares available"
   },
   {
     "id": "351",
