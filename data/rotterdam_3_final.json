@@ -1,12 +1,5 @@
 [
   {
-    "id": "451",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/451?city=1&startDate=2026-08-01&tenants=3",
-    "title": "EUR 1ST YEAR BSC / MASTER - 3-person flatshare apartment located at the Russisschestraat (available from 10-08-2026) 2 other groups in line awaiting approval From €816",
-    "price": "From €816",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
     "id": "77",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/77?city=1&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3-person flatshare apartment at the Vasteland, Rotterdam (available from 10-08-2026) From €679",
@@ -89,5 +82,12 @@
     "title": "1ST YEAR BSC / MASTER EUR STUDENT ONLY - Renovated 5-person flatshare apartment located at the Utenhagestraat, Rotterdam (available from 10-08-2026) From €686",
     "price": "From €686",
     "availability": "5 of 5 flatshares available"
+  },
+  {
+    "id": "451",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/451?city=1&startDate=2026-08-01&tenants=3",
+    "title": "EUR 1ST YEAR BSC / MASTER - 3-person flatshare apartment located at the Russisschestraat (available from 10-08-2026) 2 other groups in line awaiting approval From €816",
+    "price": "From €816",
+    "availability": "3 of 3 flatshares available"
   }
 ]
