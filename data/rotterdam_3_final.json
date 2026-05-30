@@ -1,47 +1,5 @@
 [
   {
-    "id": "77",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/77?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3-person flatshare apartment at the Vasteland, Rotterdam (available from 10-08-2026) 1 other group in line awaiting approval From €679",
-    "price": "From €679",
-    "availability": "2 of 3 flatshares available"
-  },
-  {
-    "id": "92",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/92?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person student house with garden near city center (available from 10-08-2026) From €722",
-    "price": "From €722",
-    "availability": "5 of 5 flatshares available"
-  },
-  {
-    "id": "110",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/110?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person flatshare apartment in Kralingen, Krekelstraat (available from 10-08-2026) 1 other group in line awaiting approval From €750",
-    "price": "From €750",
-    "availability": "5 of 5 flatshares available"
-  },
-  {
-    "id": "186",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/186?city=1&startDate=2026-08-01&tenants=3",
-    "title": "EUR 1ST YEAR MASTER - 4-person flatshare apartment located at the Randweg in Rotterdam (available from 10-08-2026) From €655",
-    "price": "From €655",
-    "availability": "4 of 4 flatshares available"
-  },
-  {
-    "id": "209",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/209?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare apartment in the Jonker Fransstraat (available from 10-08-2026) From €985",
-    "price": "From €985",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "255",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/255?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare: Apartment in Jacob van Akenstraat, 92m2 (available from 10-08-2026) From €753",
-    "price": "From €753",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
     "id": "282",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/282?city=1&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - Beautiful furnished apartment at Claes de Vrieselaan (available from 10-08-2026) 1 other group in line awaiting approval From €655",
@@ -82,5 +40,47 @@
     "title": "INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 4-bedroom completely furnished student house at the Jacob van Akenstraat, Rotterdam (available from 10-08-2026) From €686",
     "price": "From €686",
     "availability": "3 of 4 flatshares available"
+  },
+  {
+    "id": "77",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/77?city=1&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3-person flatshare apartment at the Vasteland, Rotterdam (available from 10-08-2026) 1 other group in line awaiting approval From €679",
+    "price": "From €679",
+    "availability": "2 of 3 flatshares available"
+  },
+  {
+    "id": "92",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/92?city=1&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person student house with garden near city center (available from 10-08-2026) From €722",
+    "price": "From €722",
+    "availability": "5 of 5 flatshares available"
+  },
+  {
+    "id": "110",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/110?city=1&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 5-person flatshare apartment in Kralingen, Krekelstraat (available from 10-08-2026) From €750",
+    "price": "From €750",
+    "availability": "5 of 5 flatshares available"
+  },
+  {
+    "id": "186",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/186?city=1&startDate=2026-08-01&tenants=3",
+    "title": "EUR 1ST YEAR MASTER - 4-person flatshare apartment located at the Randweg in Rotterdam (available from 10-08-2026) From €655",
+    "price": "From €655",
+    "availability": "4 of 4 flatshares available"
+  },
+  {
+    "id": "209",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/209?city=1&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare apartment in the Jonker Fransstraat (available from 10-08-2026) From €985",
+    "price": "From €985",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "255",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/255?city=1&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare: Apartment in Jacob van Akenstraat, 92m2 (available from 10-08-2026) From €753",
+    "price": "From €753",
+    "availability": "3 of 3 flatshares available"
   }
 ]
