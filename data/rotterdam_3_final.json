@@ -35,20 +35,6 @@
     "availability": "3 of 3 flatshares available"
   },
   {
-    "id": "222",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/222?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3-person flatshare apartment, Aernt Bruunstraat in the wider Kralingen area (available from 10-08-2026) 1 other group in line awaiting approval From €655",
-    "price": "From €655",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "487",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/487?city=1&startDate=2026-08-01&tenants=3",
-    "title": "INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 4-bedroom completely furnished student house at the Jacob van Akenstraat, Rotterdam (available from 10-08-2026) From €686",
-    "price": "From €686",
-    "availability": "3 of 4 flatshares available"
-  },
-  {
     "id": "255",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/255?city=1&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare: Apartment in Jacob van Akenstraat, 92m2 (available from 10-08-2026) From €753",
@@ -89,5 +75,12 @@
     "title": "EUR 1ST YEAR BSC / MASTER - 3-person flatshare apartment located at the Russisschestraat (available from 10-08-2026) 2 other groups in line awaiting approval From €816",
     "price": "From €816",
     "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "487",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/487?city=1&startDate=2026-08-01&tenants=3",
+    "title": "INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 4-bedroom completely furnished student house at the Jacob van Akenstraat, Rotterdam (available from 10-08-2026) From €686",
+    "price": "From €686",
+    "availability": "3 of 4 flatshares available"
   }
 ]
