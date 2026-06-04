@@ -2,6 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import json, os
 
+#using smtp now. . . . . 
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+
+
 BASE = "https://www.roomplaza.com"
 CITIES = {
     "hague":     "/en/html/web/search/home?city=4&startDate=2026-08-01&tenants=4",
@@ -71,82 +78,172 @@ def fetch_all(start_path):
     return list({x["id"]: x for x in all_items}.values())
 
 # ---------- email ----------
+# def build_html(all_new):
+#     if not all_new:
+#         return None
+#     rows = ""
+#     for city, listings in all_new.items():
+#         if not listings:
+#             continue
+#         rows += f"<h3 style='color:#5534B7;margin:20px 0 8px'>{city.title()} — {len(listings)} new</h3>"
+#         for l in listings:
+#             rows += f"""
+#             <div style='border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin-bottom:10px'>
+#               <b>{l['title'] or 'No title'}</b><br>
+#               <span style='color:#888'>{l['price']} · {l['availability']}</span><br>
+#               <a href='{l['link']}' style='color:#5534B7'>View listing →</a>
+#             </div>"""
+#     return f"""
+#     <div style='font-family:sans-serif;max-width:600px;margin:auto'>
+#       <h2 style='color:#222'>🏠 New RoomPlaza listings</h2>
+#       {rows}
+#       <p style='color:#aaa;font-size:12px'>Auto-sent by your GitHub Actions scraper</p>
+#     </div>"""
+
+
+
+# def send_email(all_new):
+#     total = sum(len(v) for v in all_new.values())
+    
+#     if total == 0:                              # ← check BEFORE building html
+#         print("No new listings — skipping email.")
+#         return
+    
+#     html = build_html(all_new)
+#     gmail_user     = os.environ["GMAIL_USER"]
+#     gmail_password = os.environ["GMAIL_APP_PASS"]
+#     notify_email   = os.environ["NOTIFY_EMAIL"]
+#     cc_emails      = [x for x in os.environ.get("CC_EMAILS", "").split(",") if x]
+
+#     msg = MIMEMultipart("alternative")
+#     msg["Subject"] = f"🏠 {total} new RoomPlaza listing(s)!"
+#     msg["From"]    = gmail_user
+#     msg["To"]      = notify_email
+#     if cc_emails:
+#         msg["Cc"]  = ", ".join(cc_emails)
+#     msg.attach(MIMEText(html, "html"))
+
+#     all_recipients = [notify_email] + cc_emails
+#     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+#         smtp.login(gmail_user, gmail_password)
+#         smtp.sendmail(gmail_user, all_recipients, msg.as_string())
+#     print(f"Email sent to {all_recipients}")
+
 def build_html(all_new):
-    if not all_new:
-        return None
     rows = ""
-    for city, listings in all_new.items():
-        if not listings:
+    for city, data in all_new.items():
+        new_listings     = data["new"]
+        changed_listings = data["changed"]
+        if not new_listings and not changed_listings:
             continue
-        rows += f"<h3 style='color:#5534B7;margin:20px 0 8px'>{city.title()} — {len(listings)} new</h3>"
-        for l in listings:
-            rows += f"""
-            <div style='border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin-bottom:10px'>
-              <b>{l['title'] or 'No title'}</b><br>
-              <span style='color:#888'>{l['price']} · {l['availability']}</span><br>
-              <a href='{l['link']}' style='color:#5534B7'>View listing →</a>
-            </div>"""
+        if new_listings:
+            rows += f"<h3 style='color:#5534B7;margin:20px 0 8px'>{city.title()} — {len(new_listings)} new</h3>"
+            for l in new_listings:
+                rows += f"""
+                <div style='border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin-bottom:10px'>
+                  <b>{l['title'] or 'No title'}</b><br>
+                  <span style='color:#888'>{l['price']} · {l['availability']}</span><br>
+                  <a href='{l['link']}' style='color:#5534B7'>View listing →</a>
+                </div>"""
+        if changed_listings:
+            rows += f"<h3 style='color:#E07B00;margin:20px 0 8px'>{city.title()} — {len(changed_listings)} updated</h3>"
+            for l in changed_listings:
+                rows += f"""
+                <div style='border:1px solid #f0c080;border-radius:8px;padding:12px 16px;margin-bottom:10px'>
+                  <b>{l['title'] or 'No title'}</b><br>
+                  <span style='color:#888'>{l['price']} · {l['availability']}</span><br>
+                  <span style='color:#aaa;font-size:12px'>{l.get('_change', '')}</span><br>
+                  <a href='{l['link']}' style='color:#5534B7'>View listing →</a>
+                </div>"""
     return f"""
     <div style='font-family:sans-serif;max-width:600px;margin:auto'>
-      <h2 style='color:#222'>🏠 New RoomPlaza listings</h2>
+      <h2 style='color:#222'>🏠 RoomPlaza update</h2>
       {rows}
       <p style='color:#aaa;font-size:12px'>Auto-sent by your GitHub Actions scraper</p>
     </div>"""
 
-#using smtp now. . . . . 
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-
 def send_email(all_new):
-    total = sum(len(v) for v in all_new.values())
-    
-    if total == 0:                              # ← check BEFORE building html
-        print("No new listings — skipping email.")
+    total_new     = sum(len(v["new"])     for v in all_new.values())
+    total_changed = sum(len(v["changed"]) for v in all_new.values())
+    if total_new == 0 and total_changed == 0:
+        print("No new or changed listings — skipping email.")
         return
-    
     html = build_html(all_new)
     gmail_user     = os.environ["GMAIL_USER"]
     gmail_password = os.environ["GMAIL_APP_PASS"]
     notify_email   = os.environ["NOTIFY_EMAIL"]
     cc_emails      = [x for x in os.environ.get("CC_EMAILS", "").split(",") if x]
-
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"🏠 {total} new RoomPlaza listing(s)!"
+    msg["Subject"] = f"🏠 {total_new} new · {total_changed} updated RoomPlaza listing(s)!"
     msg["From"]    = gmail_user
     msg["To"]      = notify_email
     if cc_emails:
         msg["Cc"]  = ", ".join(cc_emails)
     msg.attach(MIMEText(html, "html"))
-
     all_recipients = [notify_email] + cc_emails
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(gmail_user, gmail_password)
         smtp.sendmail(gmail_user, all_recipients, msg.as_string())
-    print(f"Email sent to {all_recipients}")
-
+    print(f"Email sent — {total_new} new, {total_changed} updated")
 
 # ---------- per city ----------
+# def run_city(city, path):
+#     seen_file  = os.path.join(DATA_DIR, f"{city}_seen_ids.json")
+#     final_file = os.path.join(DATA_DIR, f"{city}_final.json")
+#     current    = fetch_all(path)
+#     current_ids = set(x["id"] for x in current)
+#     seen_ids    = set(load_json(seen_file))
+#     new_ids     = current_ids - seen_ids
+#     new_list    = [x for x in current if x["id"] in new_ids]
+
+#     # sort by price low to high
+#     def parse_price(listing):
+#         try:
+#             return int(''.join(filter(str.isdigit, listing["price"] or "")))
+#         except:
+#             return 99999   # push unparseable prices to bottom
+#     new_list.sort(key=parse_price)
+    
+#     save_json(seen_file,  list(seen_ids.union(current_ids)))
+#     save_json(final_file, current)
+#     return new_list
 def run_city(city, path):
-    seen_file  = os.path.join(DATA_DIR, f"{city}_seen_ids.json")
-    final_file = os.path.join(DATA_DIR, f"{city}_final.json")
-    current    = fetch_all(path)
+    seen_file   = os.path.join(DATA_DIR, f"{city}_seen_ids.json")
+    final_file  = os.path.join(DATA_DIR, f"{city}_final.json")
+    current     = fetch_all(path)
     current_ids = set(x["id"] for x in current)
     seen_ids    = set(load_json(seen_file))
-    new_ids     = current_ids - seen_ids
-    new_list    = [x for x in current if x["id"] in new_ids]
+    prev_final  = {x["id"]: x for x in load_json(final_file)}  # ← load previous snapshot
 
-    # sort by price low to high
+    new_ids      = current_ids - seen_ids
+    new_list     = [x for x in current if x["id"] in new_ids]
+
+    # check for changed listings
+    changed_list = []
+    for x in current:
+        if x["id"] in prev_final:
+            prev = prev_final[x["id"]]
+            if (x["title"] != prev["title"] or
+                x["price"] != prev["price"] or
+                x["availability"] != prev["availability"]):
+                x["_change"] = f"was: {prev['price']} · {prev['availability']}"
+                changed_list.append(x)
+
     def parse_price(listing):
         try:
             return int(''.join(filter(str.isdigit, listing["price"] or "")))
         except:
-            return 99999   # push unparseable prices to bottom
+            return 99999
+
     new_list.sort(key=parse_price)
-    
+    changed_list.sort(key=parse_price)
+
     save_json(seen_file,  list(seen_ids.union(current_ids)))
     save_json(final_file, current)
-    return new_list
+    return {"new": new_list, "changed": changed_list}
+
+# ------------------------------WHAT I CHANGED-----------------
+
 
 # ---------- main ----------
 def run_once():
