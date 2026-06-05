@@ -32,6 +32,27 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+
+def highlight_diff(old, new):
+    if old == new:
+        return new
+    # find common prefix and suffix
+    i = 0
+    while i < len(old) and i < len(new) and old[i] == new[i]:
+        i += 1
+    j = 0
+    while j < len(old) and j < len(new) and old[-(j+1)] == new[-(j+1)]:
+        j += 1
+    changed_part = new[i: len(new)-j if j else len(new)]
+    if not changed_part.strip():
+        return new
+    return (
+        new[:i] +
+        f"<span style='color:red;font-weight:bold;text-decoration:underline'>{changed_part}</span>" +
+        (new[len(new)-j:] if j else "")
+    )
+
+
 # ---------- scrape ----------
 def fetch_page(path):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -223,12 +244,26 @@ def run_city(city, path):
     for x in current:
         if x["id"] in prev_final:
             prev = prev_final[x["id"]]
-            if (x["title"] != prev["title"] or
-                x["price"] != prev["price"] or
-                x["availability"] != prev["availability"]):
-                # x["_change"] = f"was: {prev['price']} · {prev['availability']}"
-                x["_change"] = (f"Title was: {prev['title']}<br>"if x["title"].strip() != prev["title"].strip() else "") + f"was: {prev['price']} · {prev['availability']}"
+            if (x["title"] != prev["title"] or x["price"] != prev["price"] or x["availability"] != prev["availability"]):
+                
+                title_diff = highlight_diff(prev["title"], x["title"])
+                price_diff = highlight_diff(prev["price"], x["price"])
+                avail_diff = highlight_diff(prev["availability"], x["availability"])
+
+                x["_change"] = f"""
+                    <b>Title:</b> {title_diff}<br>
+                    <b>Price:</b> {price_diff}<br>
+                    <b>Availability:</b> {avail_diff}<br>
+                    <span style='color:#aaa;font-size:11px'>
+                        was: {prev['title']} · {prev['price']} · {prev['availability']}
+                    </span>
+                """
                 changed_list.append(x)
+                
+                  
+                # x["_change"] = f"was: {prev['price']} · {prev['availability']}"
+                # x["_change"] = (f"Title was: {prev['title']}<br>"if x["title"].strip() != prev["title"].strip() else "") + f"was: {prev['price']} · {prev['availability']}"
+                # changed_list.append(x)
 
     def parse_price(listing):
         try:
