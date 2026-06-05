@@ -226,7 +226,8 @@ def run_city(city, path):
             if (x["title"] != prev["title"] or
                 x["price"] != prev["price"] or
                 x["availability"] != prev["availability"]):
-                x["_change"] = f"was: {prev['price']} · {prev['availability']}"
+                # x["_change"] = f"was: {prev['price']} · {prev['availability']}"
+                x["_change"] = (f"Title was: {prev['title']}<br>"if x["title"].strip() != prev["title"].strip() else "") + f"was: {prev['price']} · {prev['availability']}"
                 changed_list.append(x)
 
     def parse_price(listing):
