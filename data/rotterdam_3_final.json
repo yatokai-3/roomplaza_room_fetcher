@@ -14,18 +14,12 @@
     "availability": "4 of 4 flatshares available"
   },
   {
-    "id": "209",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/209?city=1&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - EUR 1st YEAR BSC / MASTER - 3 person flatshare apartment in the Jonker Fransstraat (available from 10-08-2026) 1 other group in line awaiting approval From €985",
-    "price": "From €985",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
     "id": "358",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/358?city=1&startDate=2026-08-01&tenants=3",
-    "title": "INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 3-person apartment on the Karel de Stoutestraat in Rotterdam (available from 10-08-2026) From €696",
+    "title": "INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 3-person apartment on the Karel de Stoutestraat in Rotterdam (available from 10-08-2026) 1 other group in line awaiting approval From €696",
     "price": "From €696",
-    "availability": "4 of 4 flatshares available"
+    "availability": "4 of 4 flatshares available",
+    "_change": "\n                    <b>Title:</b> INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 3-person apartment on the Karel de Stoutestraat in Rotterdam (available from 10-08-2026) <span style='color:red;font-weight:bold;text-decoration:underline'>1 other group in line awaiting approval</span> From €696<br>\n                    <b>Price:</b> From €696<br>\n                    <b>Availability:</b> 4 of 4 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: INTERNATIONAL 1st YEAR BSC MSC EUR ONLY - 3-person apartment on the Karel de Stoutestraat in Rotterdam (available from 10-08-2026) From €696 · From €696 · 4 of 4 flatshares available\n                    </span>\n                "
   },
   {
     "id": "378",
