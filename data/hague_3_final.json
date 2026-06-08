@@ -1,12 +1,5 @@
 [
   {
-    "id": "280",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/280?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4 person flatshare at the Lekstraat in The Hague (1st floor) (available from 10-08-2026) From €649",
-    "price": "From €649",
-    "availability": "4 of 4 flatshares available"
-  },
-  {
     "id": "287",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/287?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flatshare on the Juliana van Stolberglaan, The Hague (available from 10-08-2026) 1 other group in line awaiting approval From €782",
@@ -16,15 +9,51 @@
   {
     "id": "343",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/343?city=4&startDate=2026-08-01&tenants=3",
-    "title": "INTERNATIONAL 1st YEAR BSC MSC THUAS/HHS ONLY - 3-person flatshare student apartment located at the Staverdenstraat (available from 10-08-2026) 1 other group in line awaiting approval From €722",
+    "title": "INTERNATIONAL 1st YEAR BSC MSC THUAS/HHS ONLY - 3-person flatshare student apartment located at the Staverdenstraat (available from 10-08-2026) 2 other groups in line awaiting approval From €722",
     "price": "From €722",
-    "availability": "3 of 3 flatshares available"
+    "availability": "3 of 3 flatshares available",
+    "_change": "\n                    <b>Title:</b> INTERNATIONAL 1st YEAR BSC MSC THUAS/HHS ONLY - 3-person flatshare student apartment located at the Staverdenstraat (available from 10-08-2026) <span style='color:red;font-weight:bold;text-decoration:underline'>2 other groups</span> in line awaiting approval From €722<br>\n                    <b>Price:</b> From €722<br>\n                    <b>Availability:</b> 3 of 3 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: INTERNATIONAL 1st YEAR BSC MSC THUAS/HHS ONLY - 3-person flatshare student apartment located at the Staverdenstraat (available from 10-08-2026) 1 other group in line awaiting approval From €722 · From €722 · 3 of 3 flatshares available\n                    </span>\n                "
   },
   {
     "id": "352",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/352?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - PATHWAY / NAVITAS 1st YEAR BSC / MASTER - 3-person flatshare apartment with balcony available at Meidoornstraat (available from 10-08-2026) From €756",
     "price": "From €756",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "109",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/109?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3 person flatshare: Apartment in the Van den Boschstraat, The Hague (available from 10-08-2026) 4 other groups in line awaiting approval From €756",
+    "price": "From €756",
+    "availability": "1 of 3 flatshares available"
+  },
+  {
+    "id": "130",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/130?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €649",
+    "price": "From €649",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "155",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/155?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - Nice beautiful flat in The Hague (Bezuidenhout), Cornelis van der Lijnstraat (available from 10-08-2026) 1 other group in line awaiting approval From €690",
+    "price": "From €690",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "165",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/165?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flatshare on the Zwetstraat, The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €835",
+    "price": "From €835",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "177",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/177?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER  - 3-person flatshare apartment at the Zwetstraat in The Hague (available from 10-08-2026) 1 other group in line awaiting approval From €710",
+    "price": "From €710",
     "availability": "3 of 3 flatshares available"
   },
   {
@@ -70,45 +99,10 @@
     "availability": "6 of 6 flatshares available"
   },
   {
-    "id": "109",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/109?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3 person flatshare: Apartment in the Van den Boschstraat, The Hague (available from 10-08-2026) 4 other groups in line awaiting approval From €756",
-    "price": "From €756",
-    "availability": "1 of 3 flatshares available"
-  },
-  {
-    "id": "130",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/130?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €649",
+    "id": "280",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/280?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4 person flatshare at the Lekstraat in The Hague (1st floor) (available from 10-08-2026) From €649",
     "price": "From €649",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "155",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/155?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - Nice beautiful flat in The Hague (Bezuidenhout), Cornelis van der Lijnstraat (available from 10-08-2026) 1 other group in line awaiting approval From €690",
-    "price": "From €690",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "163",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/163?city=4&startDate=2026-08-01&tenants=3",
-    "title": "INTERNATIONAL 1st YEAR BSC MSC TUDELFT or THUAS/HHS ONLY - 3-person flatshare student apartment on Charlotte de Bourbonplein, The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €758",
-    "price": "From €758",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "165",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/165?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flatshare on the Zwetstraat, The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €835",
-    "price": "From €835",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "177",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/177?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER  - 3-person flatshare apartment at the Zwetstraat in The Hague (available from 10-08-2026) 1 other group in line awaiting approval From €710",
-    "price": "From €710",
-    "availability": "3 of 3 flatshares available"
+    "availability": "4 of 4 flatshares available"
   }
 ]
