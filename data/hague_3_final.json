@@ -28,18 +28,18 @@
     "availability": "3 of 3 flatshares available"
   },
   {
+    "id": "266",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/266?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS or TU DELFT 1st YEAR BSC / MASTER - Renovated 3-person flatshare apartment at the Van den Berghstraat, The Hague (available from 10-08-2026) 1 other group in line awaiting approval From €706",
+    "price": "From €706",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
     "id": "278",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/278?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - PATHWAY / NAVITAS 1st YEAR BSC / MASTER - 6-person flatshare apartment located at the Theresiastraat, the Hague (available from 10-08-2026) From €639",
     "price": "From €639",
     "availability": "6 of 6 flatshares available"
-  },
-  {
-    "id": "280",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/280?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4 person flatshare at the Lekstraat in The Hague (1st floor) (available from 10-08-2026) From €649",
-    "price": "From €649",
-    "availability": "4 of 4 flatshares available"
   },
   {
     "id": "109",
@@ -81,6 +81,13 @@
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/178?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4-person flat on the Reggestraat, The Hague (available from 10-08-2026) From €750",
     "price": "From €750",
+    "availability": "4 of 4 flatshares available"
+  },
+  {
+    "id": "280",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/280?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4 person flatshare at the Lekstraat in The Hague (1st floor) (available from 10-08-2026) From €649",
+    "price": "From €649",
     "availability": "4 of 4 flatshares available"
   },
   {
