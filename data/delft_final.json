@@ -25,8 +25,7 @@
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/147?city=3&startDate=2026-08-01&tenants=4",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 5-person flatshare apartment next to TU delft on the Prins Mauritsstraat, Delft (available from 10-08-2026) 1 other group in line awaiting approval From €578",
     "price": "From €578",
-    "availability": "5 of 5 flatshares available",
-    "_change": "\n                    <b>Title:</b> 12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 5-person flatshare apartment next to TU delft on the Prins Mauritsstraat, Delft (available from 10-08-2026) <span style='color:red;font-weight:bold;text-decoration:underline'>1 other group in line awaiting approval From €57</span>8<br>\n                    <b>Price:</b> From €<span style='color:red;font-weight:bold;text-decoration:underline'>57</span>8<br>\n                    <b>Availability:</b> <span style='color:red;font-weight:bold;text-decoration:underline'>5</span> of 5 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: 12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 5-person flatshare apartment next to TU delft on the Prins Mauritsstraat, Delft (available from 10-08-2026) 3 other groups in line awaiting approval From €608 · From €608 · 2 of 5 flatshares available\n                    </span>\n                "
+    "availability": "5 of 5 flatshares available"
   },
   {
     "id": "666",
@@ -38,9 +37,10 @@
   {
     "id": "689",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/689?city=3&startDate=2026-08-01&tenants=4",
-    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 1 other group in line awaiting approval From €710",
+    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 2 other groups in line awaiting approval From €710",
     "price": "From €710",
-    "availability": "7 of 7 flatshares available"
+    "availability": "7 of 7 flatshares available",
+    "_change": "\n                    <b>Title:</b> 6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft <span style='color:red;font-weight:bold;text-decoration:underline'>2 other groups</span> in line awaiting approval From €710<br>\n                    <b>Price:</b> From €710<br>\n                    <b>Availability:</b> 7 of 7 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: 6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 1 other group in line awaiting approval From €710 · From €710 · 7 of 7 flatshares available\n                    </span>\n                "
   },
   {
     "id": "739",
@@ -52,8 +52,9 @@
   {
     "id": "742",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/742?city=3&startDate=2026-08-01&tenants=4",
-    "title": "AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft From €800",
+    "title": "AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft 1 other group in line awaiting approval From €800",
     "price": "From €800",
-    "availability": "6 of 6 flatshares available"
+    "availability": "6 of 6 flatshares available",
+    "_change": "\n                    <b>Title:</b> AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft <span style='color:red;font-weight:bold;text-decoration:underline'>1 other group in line awaiting approval</span> From €800<br>\n                    <b>Price:</b> From €800<br>\n                    <b>Availability:</b> 6 of 6 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft From €800 · From €800 · 6 of 6 flatshares available\n                    </span>\n                "
   }
 ]
