@@ -1,5 +1,13 @@
 [
   {
+    "id": "689",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/689?city=3&startDate=2026-08-01&tenants=3",
+    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 1 other group in line awaiting approval From €710",
+    "price": "From €710",
+    "availability": "7 of 7 flatshares available",
+    "_change": "\n                    <b>Title:</b> 6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft <span style='color:red;font-weight:bold;text-decoration:underline'>1 other group</span> in line awaiting approval From €710<br>\n                    <b>Price:</b> From €710<br>\n                    <b>Availability:</b> 7 of 7 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: 6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 2 other groups in line awaiting approval From €710 · From €710 · 7 of 7 flatshares available\n                    </span>\n                "
+  },
+  {
     "id": "736",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/736?city=3&startDate=2026-08-01&tenants=3",
     "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 5-person apartment on Piet Heinstraat in Delft 3 other groups in line awaiting approval From €640",
@@ -19,6 +27,13 @@
     "title": "AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft 1 other group in line awaiting approval From €800",
     "price": "From €800",
     "availability": "6 of 6 flatshares available"
+  },
+  {
+    "id": "344",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/344?city=3&startDate=2026-08-01&tenants=3",
+    "title": "1ST YEAR BSC / MASTER TU DELFT ONLY- 3-person flatshare apartment located at the Thijssestraat near The Hague University (available from 10-08-2026) From €737",
+    "price": "From €737",
+    "availability": "3 of 3 flatshares available"
   },
   {
     "id": "96",
@@ -54,12 +69,5 @@
     "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 9-person apartment on the Lange Geer in Delft From €885",
     "price": "From €885",
     "availability": "9 of 9 flatshares available"
-  },
-  {
-    "id": "689",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/689?city=3&startDate=2026-08-01&tenants=3",
-    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 2 other groups in line awaiting approval From €710",
-    "price": "From €710",
-    "availability": "7 of 7 flatshares available"
   }
 ]
