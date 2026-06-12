@@ -1,40 +1,5 @@
 [
   {
-    "id": "689",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/689?city=3&startDate=2026-08-01&tenants=3",
-    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 2 other groups in line awaiting approval From €710",
-    "price": "From €710",
-    "availability": "7 of 7 flatshares available"
-  },
-  {
-    "id": "736",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/736?city=3&startDate=2026-08-01&tenants=3",
-    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 5-person apartment on Piet Heinstraat in Delft 3 other groups in line awaiting approval From €640",
-    "price": "From €640",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "739",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/739?city=3&startDate=2026-08-01&tenants=3",
-    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 6-Bedroom Furnished Student House with Large Garden – Achterom, Delft 1 other group in line awaiting approval From €800",
-    "price": "From €800",
-    "availability": "6 of 6 flatshares available"
-  },
-  {
-    "id": "742",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/742?city=3&startDate=2026-08-01&tenants=3",
-    "title": "AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft 1 other group in line awaiting approval From €800",
-    "price": "From €800",
-    "availability": "6 of 6 flatshares available"
-  },
-  {
-    "id": "344",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/344?city=3&startDate=2026-08-01&tenants=3",
-    "title": "1ST YEAR BSC / MASTER TU DELFT ONLY- 3-person flatshare apartment located at the Thijssestraat near The Hague University (available from 10-08-2026) 1 other group in line awaiting approval From €737",
-    "price": "From €737",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
     "id": "96",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/96?city=3&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 4 person flatshare: Apartment in the Frank van Borselenstraat, Delft (available from 10-08-2026) 2 other groups in line awaiting approval From €679",
@@ -68,5 +33,33 @@
     "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 9-person apartment on the Lange Geer in Delft From €885",
     "price": "From €885",
     "availability": "9 of 9 flatshares available"
+  },
+  {
+    "id": "689",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/689?city=3&startDate=2026-08-01&tenants=3",
+    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 7-person apartment on Breestraat in Delft 2 other groups in line awaiting approval From €710",
+    "price": "From €710",
+    "availability": "7 of 7 flatshares available"
+  },
+  {
+    "id": "736",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/736?city=3&startDate=2026-08-01&tenants=3",
+    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 5-person apartment on Piet Heinstraat in Delft 3 other groups in line awaiting approval From €640",
+    "price": "From €640",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
+    "id": "739",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/739?city=3&startDate=2026-08-01&tenants=3",
+    "title": "6 MONTHS ONLY - TU Delft 1st YEAR BSC / MASTER - 6-Bedroom Furnished Student House with Large Garden – Achterom, Delft 1 other group in line awaiting approval From €800",
+    "price": "From €800",
+    "availability": "6 of 6 flatshares available"
+  },
+  {
+    "id": "742",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/742?city=3&startDate=2026-08-01&tenants=3",
+    "title": "AVAILABLE IMMEDIATELY - Beautiful apartment on the Arnoldstraat, Delft 1 other group in line awaiting approval From €800",
+    "price": "From €800",
+    "availability": "6 of 6 flatshares available"
   }
 ]
