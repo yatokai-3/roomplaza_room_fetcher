@@ -193,15 +193,18 @@ def send_email(all_new):
     gmail_user     = os.environ["GMAIL_USER"]
     gmail_password = os.environ["GMAIL_APP_PASS"]
     notify_email   = os.environ["NOTIFY_EMAIL"]
-    cc_emails      = [x for x in os.environ.get("CC_EMAILS", "").split(",") if x]
+    # cc_emails      = [x for x in os.environ.get("CC_EMAILS", "").split(",") if x]
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"🏠 {total_new} new · {total_changed} updated RoomPlaza listing(s)!"
     msg["From"]    = gmail_user
     msg["To"]      = notify_email
-    if cc_emails:
-        msg["Cc"]  = ", ".join(cc_emails)
+    # if cc_emails:
+    #     msg["Cc"]  = ", ".join(cc_emails)
     msg.attach(MIMEText(html, "html"))
-    all_recipients = [notify_email] + cc_emails
+    
+    # all_recipients = [notify_email] + cc_emails
+    all_recipients = [notify_email]
+    
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(gmail_user, gmail_password)
         smtp.sendmail(gmail_user, all_recipients, msg.as_string())
