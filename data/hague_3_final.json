@@ -21,6 +21,13 @@
     "availability": "1 of 3 flatshares available"
   },
   {
+    "id": "201",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/201?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - THUAS, PATHWAY or TU DELFT 1st YEAR BSC / MASTER - 4 person Beetsstraat in the hague (available from 10-08-2026) 1 other group in line awaiting approval From €650",
+    "price": "From €650",
+    "availability": "4 of 4 flatshares available"
+  },
+  {
     "id": "219",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/219?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 5-person apartment on the Hamerstraat, Centre the Hague From €649",
@@ -32,13 +39,6 @@
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/234?city=4&startDate=2026-08-01&tenants=3",
     "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - Apartment at the Allard Piersonlaan, The Hague (available from 10-08-2026) 1 other group in line awaiting approval From €751",
     "price": "From €751",
-    "availability": "3 of 3 flatshares available"
-  },
-  {
-    "id": "261",
-    "link": "https://www.roomplaza.com/en/html/web/apartment/home/261?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - PATHWAY / NAVITAS 1st YEAR BSC / MASTER - 3-person flatshare apartment on the Wapenveldestraat, The Hague (available until 01-08-2026) 1 other group in line awaiting approval From €659",
-    "price": "From €659",
     "availability": "3 of 3 flatshares available"
   },
   {
@@ -72,9 +72,10 @@
   {
     "id": "130",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/130?city=4&startDate=2026-08-01&tenants=3",
-    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €649",
-    "price": "From €649",
-    "availability": "3 of 3 flatshares available"
+    "title": "12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €710",
+    "price": "From €710",
+    "availability": "3 of 3 flatshares available",
+    "_change": "\n                    <b>Title:</b> 12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €<span style='color:red;font-weight:bold;text-decoration:underline'>710</span><br>\n                    <b>Price:</b> From €<span style='color:red;font-weight:bold;text-decoration:underline'>710</span><br>\n                    <b>Availability:</b> 3 of 3 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: 12 MONTHS ONLY - THUAS / Haagse Hogeschool 1st YEAR BSC / MASTER - 3-person flat on the Louise Henriëttestraat in Bezuidenhout The Hague (available from 10-08-2026) 2 other groups in line awaiting approval From €649 · From €649 · 3 of 3 flatshares available\n                    </span>\n                "
   },
   {
     "id": "155",
@@ -84,11 +85,18 @@
     "availability": "3 of 3 flatshares available"
   },
   {
+    "id": "261",
+    "link": "https://www.roomplaza.com/en/html/web/apartment/home/261?city=4&startDate=2026-08-01&tenants=3",
+    "title": "12 MONTHS ONLY - PATHWAY / NAVITAS 1st YEAR BSC / MASTER - 3-person flatshare apartment on the Wapenveldestraat, The Hague (available until 01-08-2026) 1 other group in line awaiting approval From €659",
+    "price": "From €659",
+    "availability": "3 of 3 flatshares available"
+  },
+  {
     "id": "166",
     "link": "https://www.roomplaza.com/en/html/web/apartment/home/166?city=4&startDate=2026-08-01&tenants=3",
-    "title": "**1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) 3 other groups in line awaiting approval From €655",
+    "title": "**1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) 2 other groups in line awaiting approval From €655",
     "price": "From €655",
     "availability": "4 of 4 flatshares available",
-    "_change": "\n                    <b>Title:</b> **1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) <span style='color:red;font-weight:bold;text-decoration:underline'>3</span> other groups in line awaiting approval From €655<br>\n                    <b>Price:</b> From €655<br>\n                    <b>Availability:</b> 4 of 4 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: **1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) 2 other groups in line awaiting approval From €655 · From €655 · 4 of 4 flatshares available\n                    </span>\n                "
+    "_change": "\n                    <b>Title:</b> **1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) <span style='color:red;font-weight:bold;text-decoration:underline'>2</span> other groups in line awaiting approval From €655<br>\n                    <b>Price:</b> From €655<br>\n                    <b>Availability:</b> 4 of 4 flatshares available<br>\n                    <span style='color:#aaa;font-size:11px'>\n                        was: **1ST YEAR BSC / MASTER TU DELFT or THUAS ONLY** - 4-person flat on the Hamerstraat (Center) The Hague (available from 10-08-2026) (available until 01-08-2026) 3 other groups in line awaiting approval From €655 · From €655 · 4 of 4 flatshares available\n                    </span>\n                "
   }
 ]
