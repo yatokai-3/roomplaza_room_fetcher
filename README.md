@@ -1,4 +1,5 @@
 # roomplaza_room_fetcher
+A DESPERATE ATTEMPT TO FETCH THE NEW LISTINGS OF ROOMS IN THE ROOM-PLAZA.
 fetch the latest listings from delft, hague and rotterdam (condition, from 1-Aug,2026 & tenant = 4)
 
  ---
